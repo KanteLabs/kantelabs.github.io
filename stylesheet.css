@@ -53,6 +53,8 @@ a:hover{
 .blurb{
 	font-family: Courier;
 	text-align: left;
+	margin-left: 250px;
+	margin-right: 250px;
 }
 .about{
 	text-align: left;
