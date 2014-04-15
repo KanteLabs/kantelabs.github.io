@@ -1,0 +1,20 @@
+<script type="text/javascript">
+  <!--
+  if (screen.width <= 800) {
+    window.location = "http://m.domain.com";
+  }
+  //-->
+</script>
+
+for iphone
+php
+if(strstr($_SERVER['HTTP_USER_AGENT'],'iPhone') || strstr($_SERVER['HTTP_USER_AGENT'],'iPod'))
+{
+  header('Location: http://yoursite.com/iphone');
+  exit();
+}
+
+javascript
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+   if (document.cookie.indexOf("iphone_redirect=false") == -1) window.location = "http://graves-incorporated.com/test_sites/solera_mobile/";
+}
