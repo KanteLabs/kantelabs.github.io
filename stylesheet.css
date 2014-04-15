@@ -20,7 +20,6 @@ div{
 	display: inline-block;
 	margin-left: 180px;
 }
-
 h1{
 	font-family: courier;
 	font-size: 100px;
@@ -91,8 +90,14 @@ a:hover{
 	font-family: Courier;
 	
 }
-
-
+.projects{
+	text-align: left;
+	font-family: courier;
+	
+}
+#links{
+	color: red;
+}
 
 
 
