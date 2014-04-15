@@ -1,6 +1,10 @@
 body{
 	background-color: #FDF3E7;
 }
+span{
+	font-size: 1.1em;
+	color: red;
+}
 div{
 	width: 100px;
     height: 20px;
