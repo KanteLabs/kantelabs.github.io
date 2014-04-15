@@ -98,6 +98,12 @@ a:hover{
 #links{
 	color: red;
 }
-
-
+.light{
+	background-color: skyblue;
+	height: 2000px;
+	width: 825px;
+	margin-left: 250px;
+	border-radius: 5px;
+	border: 4px solid gray;
+}
 
