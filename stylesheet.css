@@ -57,6 +57,14 @@ a:hover{
 	border-radius: 5px;
 	border: 4px solid gray;
 }
+#box2{
+	background-color: skyblue;
+	height: 768px;
+	width: 825px;
+	margin-left: 250px;
+	border-radius: 5px;
+	border: 4px solid gray;
+}
 .blurb{
 	font-family: Courier;
 	text-align: left;
@@ -74,7 +82,3 @@ a:hover{
 	margin-left: 250px;
 	margin-right: 250px;
 }
-
-
-
-
