@@ -18,7 +18,11 @@ div{
 	text-align: center;
 	box-shadow: 5px 5px 5px #888;
 	display: inline-block;
-	margin-left: 180px;
+	position: center
+}
+nav{
+	margin-left: 33%;
+	position: center;
 }
 h1{
 	font-family: courier;
