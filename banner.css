@@ -1,6 +1,6 @@
 @import url(fonts/minimal.otf);
 .nav {
-	width:97% !important;
+	width:100% !important;
 	left:0px;
 	position:absolute;
 	overflow:hidden;
@@ -22,7 +22,7 @@
 	padding-right:20px;
 	cursor:pointer;
 	padding-top:17.5px !important;
-	float: right;
+	float: left;
 	list-style: none;
 	font-weight: 200;
 	border-left:1px solid rgba(0,0,0,.1);
