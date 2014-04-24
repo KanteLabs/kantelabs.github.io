@@ -1,6 +1,6 @@
 @import url(fonts/minimal.otf);
 
-html{    background:url(images/backgrounds/11.jpg) no-repeat;
+html{    background:url(images/backgrounds/11.jpg) ;
   background-size: full%;
   height:100%;
 }
