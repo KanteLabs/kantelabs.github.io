@@ -1,3 +1,4 @@
+@import url(fonts/minimal.otf);
 html{
 	background-image:url(images/backgrounds/2.jpg);
 }
@@ -7,7 +8,6 @@ span{
 }
 div{
 	border-radius: 2%;
-	font-family: courier;
 	font-size: 1em;
 	font-weight: bold;
 	text-align: center;
@@ -40,21 +40,18 @@ div{
 	border-radius: 2%;
 }
 .blurb, .contact{
-	font-family: Courier;
 	text-align: left;
 	margin-left: 20%;
 	margin-right: 20%;
 }
 .currentwork, .about{
 	text-align: left;
-	font-family: Courier;
 	margin-left: 5%;
 	color: gray;
 	
 }
 .projects{
-	text-align: left;
-	font-family: courier;	
+	text-align: left;	
 }
 #links{
 	color: #27a1b4;
