@@ -1,0 +1,5 @@
+//use to make a top and bottom border for my name
+.jumbotron h1 {
+  border-top: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
