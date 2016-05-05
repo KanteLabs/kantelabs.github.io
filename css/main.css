@@ -50,7 +50,7 @@ animation: AnimationName 13s ease infinite;
 	padding-right: 50;
 	padding-top: 3%;
 	padding-bottom: 2%;
-	background-color: skyblue;
+	background-color: teal;
 }
 .thumbnail {
 	width: 300px;
@@ -65,6 +65,7 @@ animation: AnimationName 13s ease infinite;
 	width:100%;
 	height:150px;
 	background-color: salmon;
+	text-align: center;
 }
 body{
 	background-color: salmon;
