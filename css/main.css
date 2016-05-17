@@ -31,6 +31,7 @@
 	padding-top: 3%;
 	padding-bottom: 2%;
 	background-image: url("pattern2.svg");
+	font-family: courier;
 }
 .thumbnail {
 	width: 300px;
@@ -43,10 +44,28 @@
 }
 #contact {
 	width:100%;
-	height:150px;
+	height:10%;
 	background-color: salmon;
 	text-align: center;
 }
 body{
 	background-color: salmon;
 }
+.blurb{
+	border: 5px solid salmon;
+	font-size: 50px;
+	display: inline-block;
+	background-color: bisque;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-family: courier;
+	height: 300px;
+}
+
+.blurb p{
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 20px;
+	text-align: center;
+}
+
