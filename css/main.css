@@ -13,44 +13,24 @@
 	
 }
 .jumbotron{
-	height:100%;
-	background: linear-gradient(341deg, #4facec, #f0541a);
-	background-size: 400% 400%;
-
--webkit-animation: AnimationName 13s ease infinite;
--moz-animation: AnimationName 13s ease infinite;
-animation: AnimationName 13s ease infinite;
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 41%}
-    50%{background-position:100% 60%}
-    100%{background-position:0% 41%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 41%}
-    50%{background-position:100% 60%}
-    100%{background-position:0% 41%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 41%}
-    50%{background-position:100% 60%}
-    100%{background-position:0% 41%}
-}
+	height:100%;	
+	background-image: url("pattern.svg");
 }
 #about {
 	text-align: center;	
 	height:100%;
-	background-color: salmon;
+	background-image: url("pattern3.svg");
 	padding-top: 10%;
-	padding-left: 10%;
+	padding-left: 10%;	
 }
 #gallery{
+	background-size: 400% 400%;
 	text-align:center;
 	padding-left:150;
 	padding-right: 50;
 	padding-top: 3%;
 	padding-bottom: 2%;
-	background-color: teal;
+	background-image: url("pattern2.svg");
 }
 .thumbnail {
 	width: 300px;
