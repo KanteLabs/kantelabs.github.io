@@ -26,16 +26,31 @@
 #gallery{
 	background-size: 400% 400%;
 	text-align:center;
-	padding-left:150;
-	padding-right: 50;
+	padding-left: 26%;
 	padding-top: 3%;
 	padding-bottom: 2%;
 	background-image: url("pattern2.svg");
 	font-family: courier;
+	display: block
 }
 .thumbnail {
 	width: 300px;
 	height: 300px;
+	border: 5px solid salmon;	
+	background-color: bisque;
+}
+.thumbnail:hover {
+	width: 350px;
+	height: 350px;
+}
+.thumbnail2{
+	width: 350px;
+	height: 350px;
+	border: 5px solid salmon;
+	border-radius: 50%;
+}
+.thumbnail2:hover{
+	
 }
 #row2 {
 	text-align:center;
@@ -61,7 +76,6 @@ body{
 	font-family: courier;
 	height: 300px;
 }
-
 .blurb p{
 	padding-left: 2%;
 	padding-right: 2%;
