@@ -27,7 +27,6 @@
 	height:100%;	
 	background-image: url("pattern.svg");
 }
-
 #about {
 	text-align: center;	
 	height:100%;
@@ -75,8 +74,9 @@
 	border: 5px solid salmon;
 	border-radius: 50%;
 }
-.thumbnail2:hover{
-	
+.thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 #row2 {
 	text-align:center;
