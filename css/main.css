@@ -11,28 +11,56 @@
 	text-align: center;
 	font-family: courier;
 }
-#button1:hover{
+#button1:hover, #button2:hover, #button3:hover{
 	-webkit-transform: translateY(-8px);
 	transform: translateY(-8px);
-}
-#button2:hover{
-	-webkit-transform: translateY(-8px);
-	transform: translateY(-8px);
-}
-#button3:hover{
-	-webkit-transform: translateY(-8px);
-	transform: translateY(-8px);
+	transition: all .25s ease;
+	color: salmon;
 }
 .jumbotron{
 	height:100%;	
 	background-image: url("pattern.svg");
 }
+.quote{
+	font-family: monotype corsiva;
+	color: #ffd9b3;
+	text-align: center;
+	padding-top: 120px;
+	font-size: 20;
+}
 #about {
 	text-align: center;	
 	height:100%;
 	background-image: url("pattern3.svg");
-	padding-top: 10%;
+	padding-top: 5%;
 	padding-left: 10%;	
+	padding-bottom: 50%;
+}
+#blurb{
+	border: 5px solid salmon;
+	font-size: 50px;
+	display: inline-block;
+	background-color: bisque;
+	font-family: courier;
+	height: 250px;
+	text-align:center;
+	margin-right: 10%;
+}
+#blurb p{
+	font-size: 15px;
+	text-align: center;
+}
+.thumbnail2{
+	margin-right: 11%;
+	width: 300px;
+	height: 300px;
+	border: 5px solid salmon;
+	border-radius: 50%;
+}
+.thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 1s ease;
 }
 #gallery{
 	background-size: 400% 400%;
@@ -42,7 +70,7 @@
 	padding-bottom: 2%;
 	background-image: url("pattern2.svg");
 	font-family: courier;
-	display: block
+	display: block;
 }
 .thumbnail {
 	width: 300px;
@@ -65,18 +93,9 @@
   transition-property: transform;
 }
 .thumbnail:hover, .thumbnail:focus, .thumbnail:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-.thumbnail2{
-	width: 350px;
-	height: 350px;
-	border: 5px solid salmon;
-	border-radius: 50%;
-}
-.thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all .5s ease;
 }
 #row2 {
 	text-align:center;
@@ -92,19 +111,14 @@
 body{
 	background-color: salmon;
 }
-.blurb{
-	border: 5px solid salmon;
-	font-size: 50px;
-	display: inline-block;
-	background-color: bisque;
-	padding-left: 3%;
-	padding-right: 3%;
-	font-family: courier;
-	height: 300px;
-}
-.blurb p{
-	padding-left: 2%;
-	padding-right: 2%;
-	font-size: 20px;
+#contactblurb{
+	font-size: 20;
 	text-align: center;
+}
+#icon:hover, #icon:focus, #icon:active{
+	-webkit-transform: scale(1.5);
+	-webkit-transform: translateY(-8px);
+	transform: scale(1.5);
+	transform: translateY(-8px);
+	transition: all .5s ease;
 }
