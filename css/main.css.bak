@@ -10,50 +10,93 @@
 #navbar{
 	text-align: center;
 	font-family: courier;
-	
+}
+#button1:hover, #button2:hover, #button3:hover{
+	-webkit-transform: translateY(-8px);
+	transform: translateY(-8px);
+	transition: all .25s ease;
+	color: salmon;
 }
 .jumbotron{
-	height:100%;
-	background: linear-gradient(341deg, #4facec, #f0541a);
-	background-size: 400% 400%;
-
--webkit-animation: AnimationName 13s ease infinite;
--moz-animation: AnimationName 13s ease infinite;
-animation: AnimationName 13s ease infinite;
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 41%}
-    50%{background-position:100% 60%}
-    100%{background-position:0% 41%}
+	height:100%;	
+	background-image: url("pattern.svg");
 }
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 41%}
-    50%{background-position:100% 60%}
-    100%{background-position:0% 41%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 41%}
-    50%{background-position:100% 60%}
-    100%{background-position:0% 41%}
-}
+.quote{
+	font-family: monotype corsiva;
+	color: #ffd9b3;
+	text-align: center;
+	padding-top: 120px;
+	font-size: 20;
 }
 #about {
 	text-align: center;	
 	height:100%;
-	background-color: salmon;
-	padding-top: 10%;
-	padding-left: 10%;
+	background-image: url("pattern3.svg");
+	padding-top: 5%;
+	padding-left: 10%;	
+	padding-bottom: 50%;
+}
+#blurb{
+	border: 5px solid salmon;
+	font-size: 50px;
+	display: inline-block;
+	background-color: bisque;
+	font-family: courier;
+	height: 250px;
+	text-align:center;
+	margin-right: 10%;
+}
+#blurb p{
+	font-size: 15px;
+	text-align: center;
+}
+.thumbnail2{
+	margin-right: 11%;
+	width: 300px;
+	height: 300px;
+	border: 5px solid salmon;
+	border-radius: 50%;
+}
+.thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 1s ease;
 }
 #gallery{
+	background-size: 400% 400%;
 	text-align:center;
-	padding-left:150;
-	padding-right: 50;
+	padding-left: 26%;
 	padding-top: 3%;
-	background-color: skyblue;
+	padding-bottom: 2%;
+	background-image: url("pattern2.svg");
+	font-family: courier;
+	display: block;
+	float: center;
 }
 .thumbnail {
 	width: 300px;
 	height: 300px;
+	border: 5px solid salmon;	
+	background-color: bisque;
+}
+.thumbnail:hover {
+	display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.thumbnail:hover, .thumbnail:focus, .thumbnail:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all .5s ease;
 }
 #row2 {
 	text-align:center;
@@ -62,9 +105,21 @@ animation: AnimationName 13s ease infinite;
 }
 #contact {
 	width:100%;
-	height:150px;
+	height:10%;
 	background-color: salmon;
+	text-align: center;
 }
 body{
 	background-color: salmon;
+}
+#contactblurb{
+	font-size: 20;
+	text-align: center;
+}
+#icon:hover, #icon:focus, #icon:active{
+	-webkit-transform: scale(1.5);
+	-webkit-transform: translateY(-8px);
+	transform: scale(1.5);
+	transform: translateY(-8px);
+	transition: all .5s ease;
 }

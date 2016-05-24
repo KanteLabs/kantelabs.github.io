@@ -1,8 +1,56 @@
+@media (max-width: 500px){
+.thumbnail2{
+	width: 175px;
+	height: 175px;
+	border: 5px solid salmon;
+	border-radius: 50%;
+	position: relative;
+}
+#about {
+	text-align: center;
+	height: auto;
+	width: auto;
+	background-image: url("pattern3.svg");
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-backgorund-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 5%;
+	padding-left: 10%;	
+	padding-bottom: 20%;
+	margin: auto;
+}
+#gallery{
+	background-size: cover;
+	text-align:center;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	padding-right: 3%;
+	background-image: url("pattern2.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: courier;
+}
+.thumbnail {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid salmon;	
+	background-color: bisque;
+	position: relative;
+	background-position: center;
+}
 #header{
 	text-align: center;
 	font-family: courier;
 	padding-top: 10%;
-}
+}}
 #sub-header{
 	text-align: center;
 	font-family: courier;
@@ -11,47 +59,96 @@
 	text-align: center;
 	font-family: courier;
 }
-#button1:hover{
+#button1:hover, #button2:hover, #button3:hover{
 	-webkit-transform: translateY(-8px);
 	transform: translateY(-8px);
-}
-#button2:hover{
-	-webkit-transform: translateY(-8px);
-	transform: translateY(-8px);
-}
-#button3:hover{
-	-webkit-transform: translateY(-8px);
-	transform: translateY(-8px);
+	transition: all .25s ease;
+	color: salmon;
 }
 .jumbotron{
 	height:100%;	
-	background-image: url("pattern.svg");
+	background-image: url("pattern.svg");background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.quote{
+	font-family: monotype corsiva;
+	color: #ffd9b3;
+	text-align: center;
+	padding-top: 120px;
+	font-size: 20;
+}
+#blurb{
+	border: 5px solid salmon;
+	font-size: 50px;
+	display: inline-block;
+	background-color: bisque;
+	font-family: courier;
+	text-align:center;
+	margin-right: 10%;
+	position: relative;
+}
+#blurb p{
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+}
+
+.thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+@media (min-width: 501px){
+	.thumbnail2{
+	margin-right: 11%;
+	width: 250px;
+	height: 250px;
+	border: 5px solid salmon;
+	border-radius: 50%;
 }
 #about {
-	text-align: center;	
-	height:100%;
+	text-align: center;
+	height: 100%;
+	width: 100%;
 	background-image: url("pattern3.svg");
-	padding-top: 10%;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-backgorund-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 5%;
 	padding-left: 10%;	
+	padding-bottom: 50%;
 }
 #gallery{
-	background-size: 400% 400%;
+	background-size: cover;
 	text-align:center;
 	padding-left: 26%;
 	padding-top: 3%;
 	padding-bottom: 2%;
-	background-image: url("pattern2.svg");
+	padding-right: 3%;
+	background-image: url("pattern2.svg");background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 	font-family: courier;
-	display: block
 }
 .thumbnail {
-	width: 300px;
-	height: 300px;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
 	border: 5px solid salmon;	
 	background-color: bisque;
-}
+	position: relative;
+	background-position: center;
+}}
 .thumbnail:hover {
-	display: inline-block;
+  display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
@@ -65,23 +162,9 @@
   transition-property: transform;
 }
 .thumbnail:hover, .thumbnail:focus, .thumbnail:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-.thumbnail2{
-	width: 350px;
-	height: 350px;
-	border: 5px solid salmon;
-	border-radius: 50%;
-}
-.thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-#row2 {
-	text-align:center;
-	padding-left:215;
-	padding-right: 50;
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all .5s ease;
 }
 #contact {
 	width:100%;
@@ -92,19 +175,14 @@
 body{
 	background-color: salmon;
 }
-.blurb{
-	border: 5px solid salmon;
-	font-size: 50px;
-	display: inline-block;
-	background-color: bisque;
-	padding-left: 3%;
-	padding-right: 3%;
-	font-family: courier;
-	height: 300px;
-}
-.blurb p{
-	padding-left: 2%;
-	padding-right: 2%;
-	font-size: 20px;
+#contactblurb{
+	font-size: 20;
 	text-align: center;
+}
+#icon:hover, #icon:focus, #icon:active{
+	-webkit-transform: scale(1.5);
+	-webkit-transform: translateY(-8px);
+	transform: scale(1.5);
+	transform: translateY(-8px);
+	transition: all .5s ease;
 }
