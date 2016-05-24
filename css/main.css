@@ -58,6 +58,7 @@
 #navbar{
 	text-align: center;
 	font-family: courier;
+	
 }
 #button1:hover, #button2:hover, #button3:hover{
 	-webkit-transform: translateY(-8px);
@@ -66,9 +67,9 @@
 	color: salmon;
 }
 .jumbotron{
-	height:100%;	
+	height:100%;
 	background-image: url("pattern.svg");background-repeat: no-repeat;
-	background-position: center;
+	background-position: cover;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -94,7 +95,6 @@
 	text-align: center;
 	position: relative;
 }
-
 .thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -106,12 +106,13 @@
 	font-family: courier;
 	padding-top: 10%;
 }
-	.thumbnail2{
+.thumbnail2{
 	margin-right: 11%;
 	width: 250px;
 	height: 250px;
 	border: 5px solid salmon;
 	border-radius: 50%;
+	margin-top: 100px;
 }
 #about {
 	text-align: center;
@@ -132,15 +133,15 @@
 #gallery{
 	background-size: cover;
 	text-align:center;
-	padding-left: 26%;
 	padding-top: 3%;
 	padding-bottom: 2%;
-	padding-right: 3%;
-	background-image: url("pattern2.svg");background-repeat: no-repeat;
+	background-image: url("pattern2.svg");
+	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: courier;
+	margin: auto;
 }
 .thumbnail {
 	width: auto;
@@ -172,13 +173,13 @@
   transition: all .5s ease;
 }
 #contact {
-	width:100%;
 	height:10%;
 	background-color: salmon;
 	text-align: center;
 }
 body{
 	background-color: salmon;
+	
 }
 #contactblurb{
 	font-size: 20;
