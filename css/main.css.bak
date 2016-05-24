@@ -46,7 +46,11 @@
 	text-align:center;
 	margin-right: 10%;
 }
+<<<<<<< HEAD
 #blurb p{
+=======
+.blurb p{
+>>>>>>> origin/master
 	font-size: 15px;
 	text-align: center;
 }
@@ -71,7 +75,10 @@
 	background-image: url("pattern2.svg");
 	font-family: courier;
 	display: block;
+<<<<<<< HEAD
 	float: center;
+=======
+>>>>>>> origin/master
 }
 .thumbnail {
 	width: 300px;

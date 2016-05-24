@@ -108,11 +108,19 @@
 	border: 5px solid salmon;
 	border-radius: 50%;
 }
+.quote{
+	font-family: monotype corsiva;
+	color: #ffd9b3;
+	text-align: center;
+	padding-top: 120px;
+	font-size: 20;
+}
 #about {
 	text-align: center;
 	height: 100%;
 	width: 100%;
 	background-image: url("pattern3.svg");
+<<<<<<< HEAD
 	-webkit-background-size:cover;
 	-moz-background-size: cover;
 	-o-backgorund-size: cover;
@@ -123,6 +131,37 @@
 	padding-top: 5%;
 	padding-left: 10%;	
 	padding-bottom: 50%;
+=======
+	padding-top: 5%;
+	padding-left: 10%;	
+	padding-bottom: 50%;
+}
+#blurb{
+	border: 5px solid salmon;
+	font-size: 50px;
+	display: inline-block;
+	background-color: bisque;
+	font-family: courier;
+	height: 250px;
+	text-align:center;
+	margin-right: 10%;
+}
+#blurb p{
+	font-size: 15px;
+	text-align: center;
+}
+.thumbnail2{
+	margin-right: 11%;
+	width: 300px;
+	height: 300px;
+	border: 5px solid salmon;
+	border-radius: 50%;
+}
+.thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 1s ease;
+>>>>>>> origin/master
 }
 #gallery{
 	background-size: cover;
@@ -136,6 +175,10 @@
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: courier;
+<<<<<<< HEAD
+=======
+	display: block;
+>>>>>>> origin/master
 }
 .thumbnail {
 	width: auto;
@@ -165,6 +208,14 @@
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   transition: all .5s ease;
+<<<<<<< HEAD
+=======
+}
+#row2 {
+	text-align:center;
+	padding-left:215;
+	padding-right: 50;
+>>>>>>> origin/master
 }
 #contact {
 	width:100%;
