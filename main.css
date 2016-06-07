@@ -1,0 +1,190 @@
+@media (max-width: 500px){
+.thumbnail2{
+	width: 175px;
+	height: 175px;
+	border: 5px solid salmon;
+	border-radius: 50%;
+	position: relative;
+	margin:auto;
+}
+#about {	
+	text-align: center;
+	height: 100%;
+	width: 100%;
+	background-image: url("pattern3.svg");
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-backgorund-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-top: 5%;
+}
+#gallery{
+	background-size: cover;
+	text-align:center;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	padding-right: 3%;
+	background-image: url("pattern2.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: courier;
+}
+.thumbnail {
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid salmon;	
+	background-color: bisque;
+	position: relative;
+	background-position: center;
+}
+#header{
+	text-align: center;
+	font-family: courier;
+	padding-top: 10%;
+}}
+#sub-header{
+	text-align: center;
+	font-family: courier;
+}
+#navbar{
+	text-align: center;
+	font-family: courier;
+	
+}
+#button1:hover, #button2:hover, #button3:hover{
+	-webkit-transform: translateY(-8px);
+	transform: translateY(-8px);
+	transition: all .25s ease;
+	color: salmon;
+}
+.jumbotron{
+	height:100%;
+	background-image: url("pattern.svg");
+	background-repeat: no-repeat;
+	background-position: cover;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.quote{
+	font-family: monotype corsiva;
+	color: #ffd9b3;
+	text-align: center;
+	padding-top: 100px;
+	font-size: 30;
+}
+#blurb{
+	border: 5px solid salmon;
+	font-size: 50px;
+	display: inline-block;
+	background-color: bisque;
+	font-family: courier;
+	text-align:center;
+	margin-left:auto;
+	margin-right: auto;
+	position: relative;
+}
+#blurb p{
+	font-size: 15px;
+	text-align: center;
+	position: relative;
+	margin: auto;
+}
+.thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 1s ease;
+}
+@media (min-width: 501px){
+#header{
+	text-align: center;
+	font-family: courier;
+	padding-top: 10%;
+}
+.thumbnail2{
+	width: 300px;
+	height: 300px;
+	border: 5px solid salmon;
+	border-radius: 50%;
+	margin-top: 100px;
+}
+#about {
+	text-align: center;
+	height: 100%;
+	background-image: url("pattern3.svg");
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-backgorund-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: auto;
+	padding: 5% 10% 0 10%;
+}
+#gallery{
+	background-size: cover;
+	text-align:center;
+	padding-top: 3%;
+	padding-bottom: 2%;
+	background-image: url("pattern2.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: courier;
+}
+.thumbnail {
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	border: 5px solid salmon;	
+	background-color: bisque;
+	position: relative;
+	background-position: center;
+}}
+.thumbnail:hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.thumbnail:hover, .thumbnail:focus, .thumbnail:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all .5s ease;
+}
+#contact {
+	height:10%;
+	background-color: salmon;
+	text-align: center;
+}
+body{
+	background-color: salmon;
+}
+#contactblurb{
+	font-size: 20;
+	text-align: center;
+}
+#icon:hover, #icon:focus, #icon:active{
+	-webkit-transform: scale(1.5);
+	-webkit-transform: translateY(-8px);
+	transform: scale(1.5);
+	transform: translateY(-8px);
+	transition: all .5s ease;
+}
