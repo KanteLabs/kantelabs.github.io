@@ -1,25 +1,11 @@
 @media (max-width: 500px){
-.thumbnail2{
-	width: 175px;
-	height: 175px;
-	border: 5px solid salmon;
-	border-radius: 50%;
-	position: relative;
-	margin:auto;
-}
-#about {	
-	text-align: center;
-	height: 100%;
-	width: 100%;
+#about{
 	background-image: url("pattern3.svg");
-	-webkit-background-size:cover;
-	-moz-background-size: cover;
-	-o-backgorund-size: cover;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
-	padding-top: 5%;
 }
 #gallery{
 	background-size: cover;
@@ -34,31 +20,32 @@
 	background-size: cover;
 	font-family: courier;
 }
-.thumbnail {
-	width: 300px;
-	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	border: 5px solid salmon;	
-	background-color: bisque;
+.thumbnail {	
+	max-width: 100%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	border:0 none transparent;	
+	background-color: transparent;
 	position: relative;
 	background-position: center;
 }
-#header{
+.picme{
+	margin-top: 5%;
+	margin-bottom: 5%;	
+	max-width: 100%;
+	display: block;
+}
+.header{
 	text-align: center;
 	font-family: courier;
 	padding-top: 10%;
 }}
-#sub-header{
+.sub-header, .navbar{
 	text-align: center;
 	font-family: courier;
 }
-#navbar{
-	text-align: center;
-	font-family: courier;
-	
-}
-#button1:hover, #button2:hover, #button3:hover{
+.button1:hover, .button2:hover, .button3:hover{
 	-webkit-transform: translateY(-8px);
 	transform: translateY(-8px);
 	transition: all .25s ease;
@@ -67,57 +54,6 @@
 .jumbotron{
 	height:100%;
 	background-image: url("pattern.svg");
-	background-repeat: no-repeat;
-	background-position: cover;
-	background-attachment: fixed;
-	background-size: cover;
-}
-.quote{
-	font-family: monotype corsiva;
-	color: #ffd9b3;
-	text-align: center;
-	padding-top: 100px;
-	font-size: 30;
-}
-#blurb{
-	border: 5px solid salmon;
-	font-size: 50px;
-	display: inline-block;
-	background-color: bisque;
-	font-family: courier;
-	text-align:center;
-	margin-left:auto;
-	margin-right: auto;
-	position: relative;
-}
-#blurb p{
-	font-size: 15px;
-	text-align: center;
-	position: relative;
-	margin: auto;
-}
-.thumbnail2:hover, .thumbnail2:focus, .thumbnail2:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  transition: all 1s ease;
-}
-@media (min-width: 501px){
-#header{
-	text-align: center;
-	font-family: courier;
-	padding-top: 10%;
-}
-.thumbnail2{
-	width: 300px;
-	height: 300px;
-	border: 5px solid salmon;
-	border-radius: 50%;
-	margin-top: 100px;
-}
-#about {
-	text-align: center;
-	height: 100%;
-	background-image: url("pattern3.svg");
 	-webkit-background-size:cover;
 	-moz-background-size: cover;
 	-o-backgorund-size: cover;
@@ -126,7 +62,47 @@
 	background-attachment: fixed;
 	background-size: cover;
 	margin: auto;
-	padding: 5% 10% 0 10%;
+}
+.quote{
+	font-family: monotype corsiva;
+	color: #ffd9b3;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 30;
+}
+@media (min-width: 501px){
+.header{
+	text-align: center;
+	font-family: courier;
+	padding-top: 10%;
+}
+.header2, #about p{
+	font-family: courier;	
+	text-align: center;
+	margin-top: 5%;
+}
+#about p{
+	font-size: 1.5em;
+}
+.picme{
+	margin-top: 5%;
+	margin-bottom: 5%;	
+	width: 550px;
+	float: right;
+	display: block;
+}
+.picme:hover, .picme:focus, .picme:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all .5s ease;
+}
+#about{
+	background-image: url("pattern3.svg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 #gallery{
 	background-size: cover;
@@ -143,10 +119,11 @@
 .thumbnail {
 	width: auto;
 	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	border: 5px solid salmon;	
-	background-color: bisque;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10%;
+	border:0 none transparent;	
+	background-color: transparent;
 	position: relative;
 	background-position: center;
 }}
@@ -183,8 +160,8 @@ body{
 }
 #icon:hover, #icon:focus, #icon:active{
 	-webkit-transform: scale(1.5);
-	-webkit-transform: translateY(-8px);
+	-webkit-transform: translateY(-9px);
 	transform: scale(1.5);
-	transform: translateY(-8px);
+	transform: translateY(-9px);
 	transition: all .5s ease;
 }

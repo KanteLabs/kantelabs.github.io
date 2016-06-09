@@ -1,0 +1,87 @@
+<html lang="end">
+<head>
+<meta charset="utf -8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="favicon.png"/>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/main.css" />
+<link rel="stylesheet" href="css/bg.css" />
+
+<title>Portfolio | Amidou Kante</title>
+<meta name="description" content="Amidou Kante's online portfolio"><meta name="author" content="Amidou Kante">
+</head>
+<body>
+<div class="jumbotron">	
+  <h1 class="header">Amidou Kante</h1>
+  <p class="sub-header">Student | Designer | Programmer</p>
+  <p class="navbar" class="container-fluid">
+	<a class="btn btn-primary btn-lg" href="#about" role="button" class="button1">About</a>
+	<a class="btn btn-primary btn-lg" href="#gallery" role="button" class="button2">Portfolio</a>
+	<a class="btn btn-primary btn-lg" href="#contact" role="button" class="button3">Contact</a>
+	<div class="quote">
+		The <font color="84e184">' Earth'</font> without <font color="6fdc6f"><br>'Art'</font> is just <font color="46d246"><br>' Eh'</font>
+	</div>
+  </p>  
+</div>
+<div id="about">
+	<div class="container-fluid">
+		<img src="images/me750.png" class="img-responsive, picme"/>
+		<h1 class="header2">About Me</h1>
+		<p>Leondardo Da Vinci, and Nikola Tesla are probably the two most important people that have influenced me to become the person that I am today. Da Vinci is the renaissance man that I aspire to be, and Tesla has the creativity and aspirations that I want to obtain myself. I'm a person that likes to learn new things all the time and I hope that one day I will able to start and run my own development company that won't be limited to one thing. I am very interested in art and technology which I combine together whenever I get the chance to do so.</p>		
+	</div>
+</div>
+<div id="gallery">
+	<div class="row" class="container-fluid">
+		<h1 class="header2">Portfolio</h1>
+	  <div class="col-md-4">
+		<div class="thumbnail"><a href="files/tk labs.pdf">
+		  <img src="images/tklabs.png" text="PM Project"></a>
+		  <div class="caption">
+			<h3>T.K.Labs</h3>
+			<p>On this project I worked with another student, Donovan Taitt, to help set-up and create a business that followed a project management guideline.</p>			
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-md-4">
+		<div class="thumbnail"><a href="files/prezi.pdf">
+		  <img src="images/guardian.png" text="Corporate Partner"></a>
+		  <div class="caption">
+			<h3>Corporate Partner</h3>
+			<p>On this project I worked with my classmates, Kharisa Ashley and Elisha Rumph, to learn more about the Guardian Media Group.</p>
+		  </div>
+		</div>
+	  </div>
+	 <div class="col-md-4">
+		<div class="thumbnail">
+		  <img src="images/networking.jpg" text="Corporate Partner Day">
+		  <div class="caption">
+			<h3>Corp. Partner Day</h3>
+			<p>This was an important event at Year UP that gave me an opportunity to network and give tours so that our partners can learn more about us.</p>			
+		  </div>
+		</div>
+	  </div>	  
+	</div>
+	</div>
+<div id="contact" class="container-fluid"><br>
+	<P id="contactblurb">If you have any questions about branding, web design, programming,or general consultations you can contact me below:</P>
+	<a href="mailto:kamdiou@gmail.com?Subject=Hi there!">
+	<img src="images/email.png" title="Email Me" id="icon">
+	</a>
+	<a href="https://www.linkedin.com/in/amidou-kante-9b459a94">
+	<img src="images/linkedin.png" title="Linkedin Profile" id="icon">
+	</a>
+	<a href="https://github.com/KanteLabs">
+	<img src="images/github.png" title="Github Profile" id="icon">
+	</a>
+	<p><font size="1">&copy; Copyright Amidou Kante 2016</font></p>
+</div>
+
+</body>
+</html>
