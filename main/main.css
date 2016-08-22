@@ -49,12 +49,13 @@ footer{
 /*Css for skills section*/
 .skills-image.mdl-card{
 	margin: auto;
-	height: 150;
-	width: 200;
+	width: 200px;
 }
 .skills-image .mdl-card__media{
 	background: white;
 	background-color: white;
+	margin: auto;
+	width: 100%;
 }
 .skills-max-width{
 	max-width: auto;
