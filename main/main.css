@@ -61,6 +61,11 @@ footer{
 	max-width: auto;
 	height: auto;
 }
+.mdl-card:hover, .mdl-card:focus, .mdl-card:active{
+	-webkit-transform: translateY(-15px);
+	transform: translateY(-15px);
+	transition: all .75s ease;
+}
 /*Css for Portfolio section*/
 .mdl-cell .mdl-card {
 	width: 320px;
@@ -70,6 +75,7 @@ img.article-image {
 	width: 100%;
 	height: auto;
 }
+
 .portfolio-max-width {
 	max-width: 1000px;
 	height: auto;
