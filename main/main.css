@@ -1,5 +1,6 @@
 *{
 	font-family: 'Roboto';
+	/*Makes it so that the scrolling is more smooth on mobile*/
 	-webkit-overflow-scrolling: touch;
 }
 html, body {
