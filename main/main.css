@@ -1,5 +1,6 @@
 *{
 	font-family: 'Roboto';
+	-webkit-overflow-scrolling: touch;
 }
 html, body {
 	background-image: radial-gradient(ellipse farthest-corner at left top, #cfe7fa 0%, #6393c1 100%);
