@@ -5,7 +5,6 @@
 }
 html, body {
 	background-image: radial-gradient(ellipse farthest-corner at left top, #cfe7fa 0%, #6393c1 100%);
-	font-family: 'Roboto';
 }
 h1{
 	text-align: center;
@@ -14,10 +13,6 @@ h1{
 	background-image:url('https://kantelabs.github.io/images/bg2.jpg') ;
 	background-size: cover;
 	font-size: 1.3em;
-}
-/*Css for the header and menu button*/
-.is-active{
-	border-bottom: 2px black solid;
 }
 /*Css for home section*/
 .home-banner p {
