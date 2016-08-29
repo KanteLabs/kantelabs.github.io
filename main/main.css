@@ -42,13 +42,16 @@ h1{
 }
 /*Css for about section*/
 .about-image.mdl-card{
-	width: auto; height: auto;
+	width: 450px;
 	margin: auto;
 }
 .about-text.mdl-card{
-	width: auto; height: auto;
+	width:600px; height: auto;
 	margin: auto;
 	padding-left: 10;
+}
+.about-text .mdl-card__supporting-text{
+	font-size: 1em;
 }
 .about-max-width{
 	max-width: auto;
@@ -83,7 +86,6 @@ img.article-image {
 	width: 100%;
 	height: auto;
 }
-
 .portfolio-max-width {
 	max-width: 1000px;
 	height: auto;
