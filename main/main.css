@@ -1,7 +1,5 @@
 *{
 	font-family: 'Roboto';
-	/*Makes it so that the scrolling is more smooth on mobile*/
-	-webkit-overflow-scrolling: touch;
 }
 html, body {
 	background-image: radial-gradient(ellipse farthest-corner at left top, #cfe7fa 0%, #6393c1 100%);
@@ -52,43 +50,16 @@ h1{
 	max-width: auto;
 	height: auto;
 }
-/*Css for skills section*/
-.skills-image.mdl-card{
-	margin: auto;
-	width: 200px;
-}
-.skills-image .mdl-card__media{
-	background: white;
-	background-color: white;
-	margin: auto;
+
+/*Css for Portfolio section*/
+.thumbnail img{
 	width: 100%;
+	
 }
-.skills-max-width{
-	max-width: auto;
-	height: auto;
+.thumbnail{
+	display: ;
 }
-.mdl-card:hover, .mdl-card:focus, .mdl-card:active{
-	-webkit-transform: translateY(-15px);
+.thumbnail:hover, .thumbnail:focus, .thumbnail:active{
 	transform: translateY(-15px);
 	transition: all .75s ease;
-}
-/*Css for Portfolio section*/
-.mdl-cell .mdl-card {
-	width: 320px;
-	height: 320px;
-}
-img.article-image {
-	width: 100%;
-	height: auto;
-}
-.portfolio-max-width {
-	max-width: 1000px;
-	height: auto;
-}
-.portfolio-card .mdl-card__title {
-	padding-bottom: 0;
-}
-.mdl-cell > .mdl-card__title {
-	color: #fff;
-	background: lightblue;
 }

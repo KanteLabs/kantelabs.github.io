@@ -1,0 +1,21 @@
+I made a small quote generator that uses an API to display random Kanye West quotes and was a step in allowing me to be able to work with html and javascript applications.<br><br> |HTML5|CSS3|JavaScript|Ajax|API|Material Design 
+<a href="https://kantelabs.github.io/Kanye-West-Quote-Generator/index.html">
+
+I created a pokemon go calculator that is capable of telling a person how many pokemons they can evolved based on certain values.<br><br> |HTML5|CSS3|JavaScript|Material Design
+https://kantelabs.github.io/PokemonGo-Calc/index.html
+
+A sample fashion site template that I made that is able to support a CMS system and is built upon a Bootstrap framework. This template will be an ongoing project and eventually become a fully function site.<br><br> |HTML5|CSS3|JavaScript|Bootstrap   https://kantelabs.github.io/High-Fashion-Sample-Site/index.html
+
+This weather app is capable of giving a user real time weather conditions based on their location. With this project I was able to test my skills of using GET methods in order to display information from an API. I have plans to keep updating the project to have additonal features.<br><br>
+|HTML5|CSS3|JavaScript|Ajax|API|Bootstrap
+http://codepen.io/KanteLabs/full/qaaKgo/
+
+This is where I showcase the various UI/UX templates that I have created. This is where my main creativity shines so that I can show a client different kinds of elements that they can incorporate into their site.<br><br>
+				|HTML5|CSS3|JavaScript|Material Design|UI/UX 
+				href="http://codepen.io/KanteLabs/full/qaaKgo/"
+
+
+					This was one of my favorite projects to work on, because it allowed me to explore how front end and back end programming function together. Using instagrams API I was able to pull a users information and their media and post it into specific locations in the document. I went for a minimalistic approach and plan on adding additional features to the web app.<br><br>
+				|HTML5|CSS3|JavaScript|API|Ajax|Material Design| 
+				https://kantelabs.github.io/TweetGram/index.html
+				</div>				
