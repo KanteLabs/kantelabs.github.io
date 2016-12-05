@@ -1,63 +1,151 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 *{
 	font-family: 'Roboto';
-}
-html, body {
-	background-image: radial-gradient(ellipse farthest-corner at left top, #cfe7fa 0%, #6393c1 100%);
 }
 h1{
 	text-align: center;
 }
-.mdl-mini-footer, .mdl-mini-footer__right-section  ul li a{
-	background-image:url('https://kantelabs.github.io/images/bg2.jpg') ;
-	background-size: cover;
-	font-size: 1.3em;
+/*Portfolio section*/
+.overlay {
+	text-align: center;
 }
-/*Css for home section*/
-.home-banner p {
-	font-size:3.5em;
-}
-.home-banner h4 {
-	border-top: 1px black solid;
-	margin-left: 70%;
-}
-.home-banner {
-	padding-top: 25%;
-	margin-right: 12%;
-	text-align: right;
-	color: #fff;
-}
-#home {
-	height: 100%;
-	background: url('https://kantelabs.github.io/images/bg2.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-/*Css for about section*/
-.about-image.mdl-card{
-	width: 450px;
-	margin: auto;
-}
-.about-text.mdl-card{
-	width:600px; height: auto;
-	margin: auto;
-	padding-left: 10;
-}
-.about-text .mdl-card__supporting-text{
-	font-size: 1em;
-}
-.about-max-width{
-	max-width: auto;
-	height: auto;
-}
-
-/*Css for Portfolio section*/
-.thumbnail img{
+.item .overlay {
+	position: absolute;
+	top:0;
+	left: 0px;
+	right: 0;
+	bottom:0;
+	background-color: rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	color: white;
 	width: 100%;
-	
+	/* height: 100%; */
 }
-.thumbnail{
-	display: ;
+.caption {
+	display: inline-block;
+	vertical-align: text-bottom;
+	font-weight:bold;
+	position: relative;
+}
+@media screen and (max-width: 600px){
+	.portfolioImg{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+	}
+	.portfolioFlex{
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: space-around;
+		align-items: flex-end;
+		margin-left: -1em;
+	}
+	div#portfolioGrid {
+		position: relative;
+	  z-index: 2;
+	  padding: 0;
+	  padding-bottom: 30rem;
+	  *zoom: 1;
+	  width: auto;
+	  max-width: 100%;
+	  float: none;
+	  display: block;
+	  margin-right: auto;
+	  margin-left: auto;
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+	.item {
+		margin: 5px;
+		margin-right: 1.5em;
+		width: 100%;
+		height: 150px;
+		margin-top: 10px;
+		margin-bottom: 0.8%;
+		overflow: hidden;
+		position: relative;
+		line-height: 150px;
+	}
+}
+@media screen and (min-width: 601px){
+	.portfolioImg{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+	.portfolioFlex{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		width: 100%;
+	}
+	div#portfolioGrid {
+		position: relative;
+	  z-index: 2;
+	  padding: 0;
+	  padding-bottom: 30rem;
+	  *zoom: 1;
+	  width: auto;
+	  max-width: 100%;
+	  float: none;
+	  display: block;
+	  margin-right: auto;
+	  margin-left: auto;
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+	.item {
+		margin-left: -2em;
+		margin-right: -2em;
+		width: 53.6%;
+		height: 150px;
+		margin-top: 10px;
+		margin-bottom: 0.8%;
+		overflow: hidden;
+		position: relative;
+		line-height: 150px;
+	}
+}
+@media screen and (min-width: 801px){
+	.portfolioFlex{
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-around;
+	}
+	div#portfolioGrid {
+		position: relative;
+	  z-index: 2;
+	  padding: 0;
+	  padding-bottom: 30rem;
+	  *zoom: 1;
+	  width: 100%;
+	  max-width: 100%;
+	  float: none;
+	  display: inline-flex;
+	  margin-right: auto;
+	  margin-left: auto;
+	  padding-left: 0;
+	  padding-right: 0;
+	}	
+	.item {
+		width: 32.8%;
+		height: 100%;
+		margin-top: 10px;
+		margin-bottom: 0.8%;
+		overflow: hidden;
+		position: relative;
+		margin-left: -2em;
+		margin-right: 1em;
+	}	
+	.item:hover .imageHolder {
+		-webkit-transform: scale(1.1, 1.1) !important;
+		transform: scale(1.1, 1.1) !important;
+	}
 }
 .thumbnail:hover, .thumbnail:focus, .thumbnail:active{
 	transform: translateY(-15px);
