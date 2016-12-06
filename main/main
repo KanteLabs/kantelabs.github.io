@@ -121,39 +121,6 @@ li {
         position: relative;
         line-height: 15em;
     }
-	.aboutText p{
-	font-size: 1.4rem;
-	text-align: left;
-	margin-left: 1em;
-	margin-right: 1em;
-	}
-	
-	.aboutFlex{
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		position: relative;
-	}
-	.skillsFlex{
-	display: flex;
-	JUSTIFY-CONTENT: space-around;
-	flex-direction: row;
-	flex-wrap: wrap;
-	margin-top: 1.5em;
-	max-width: 100%;
-	}
-	.skillItem{
-		position: relative;
-		display: inline-block;
-		width: 8em;
-	}
-	.skillItem img {
-	display: inline-block;
-	width: 100%;
-	}
-	ul.footerLinks{
-	display: flex;
-	}
 }
 
 /********************************************
@@ -228,38 +195,6 @@ li {
         top: 1em;
         text-decoration: none;
     }
-	.aboutText p{
-	font-size: 1.8rem;
-	text-align: left;
-	margin-left: 1em;
-	margin-right: 1em;
-	}
-	
-	.aboutFlex{
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		position: relative;
-	}
-	.skillsFlex{
-	display: flex;
-	JUSTIFY-CONTENT: space-around;
-	flex-flow: row wrap;
-	margin-top: 1.5em;
-	}
-	.skillItem{
-		position: relative;
-		display: inline-block;
-		width: 13em;
-		margin: 1em;
-	}
-	.skillItem img {
-	display: inline-block;
-	width: 100%;
-	}
-	ul.footerLinks{
-	display: flex;
-	}
 }
 
 /**************************
@@ -330,6 +265,8 @@ li {
         transition: transform 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
         overflow: hidden;
     }
+	.aboutText{
+	}
 	.aboutText p{
 	font-size: 2.2rem;
 	text-align: left;
@@ -344,20 +281,17 @@ li {
 		position: relative;
 	}
 	.skillsFlex{
-	display: flex;
-	JUSTIFY-CONTENT: space-around;
-	flex-flow: row wrap;
-	margin-top: 1.5em;
 	}
 	.skillItem{
 		position: relative;
 		display: inline-block;
-		width: 13em;
-		margin: 1em;
 	}
-	.skillItem img {
+	.skillPic {
+	width: 15em;
+	}
+	.skillPic img {
 	display: inline-block;
-	width: 100%;
+	width: 100;
 	}
 	ul.footerLinks{
 	display: flex;
