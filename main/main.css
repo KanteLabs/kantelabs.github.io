@@ -153,6 +153,16 @@ li {
 	}
 	ul.footerLinks{
 	display: flex;
+	justify-content: space-between;
+	margin-top: 1em;
+	margin-left: -2.1em;
+	font-size: 0.8em;
+	font-weight: bold;
+	margin-right: 1.2em;
+	}
+	
+	.footerLinks li {
+	margin-left: -1em;
 	}
 }
 
@@ -259,6 +269,14 @@ li {
 	}
 	ul.footerLinks{
 	display: flex;
+	justify-content: center;
+	margin-top: 2.3em;
+	font-size: 1.5em;
+	}
+	
+	.footerLinks li {
+		
+margin-left: 1em;
 	}
 }
 
@@ -361,6 +379,13 @@ li {
 	}
 	ul.footerLinks{
 	display: flex;
+	justify-content: center;
+	margin-top: 2.3em;
+	font-size: 1.5em;
+	}
+	
+	.footerLinks li {
+		margin-left: 1em;
 	}
 }
 
