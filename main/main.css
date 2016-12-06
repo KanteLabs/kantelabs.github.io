@@ -17,33 +17,38 @@ h1{
 .item .overlay {
 	position: absolute;
 	top:0;
-	left: 0px;
-	right: 0;
-	bottom:0;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(169, 68, 66, 0.2);
 	z-index: 1;
-	color: white;
 	width: 100%;
-	/* height: 100%; */
+	height: 100%;
 }
+@media screen and (max-width: 600px){
+	
 .caption {
 	display: inline-block;
 	vertical-align: text-bottom;
-	font-weight:bold;
 	position: relative;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	font-size: 1.5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-top: -1%;
+	text-decoration: none;
 }
-@media screen and (max-width: 600px){
 	.portfolioImg{
 			position: absolute;
-			width: 100%;
-			height: 100%;
+			/* width: 100%; */
+			height: 15em;
 	}
 	.portfolioFlex{
 		display: flex;
 		flex-flow: column wrap;
 		justify-content: space-around;
 		align-items: flex-end;
-		margin-left: -1em;
 	}
 	div#portfolioGrid {
 		position: relative;
@@ -62,14 +67,14 @@ h1{
 	}
 	.item {
 		margin: 5px;
-		margin-right: 1.5em;
+		margin-right: 1.8em;
 		width: 100%;
-		height: 150px;
+		height: 15em;
 		margin-top: 10px;
 		margin-bottom: 0.8%;
 		overflow: hidden;
 		position: relative;
-		line-height: 150px;
+		line-height: 15em;
 	}
 }
 @media screen and (min-width: 601px){
@@ -77,12 +82,15 @@ h1{
 		position: absolute;
 		width: 100%;
 		height: 100%;
+		/* left: 1em; */
+		/* top: -1.3em; */
 	}
 	.portfolioFlex{
 		display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
 		width: 100%;
+		padding: 0 3em;
 	}
 	div#portfolioGrid {
 		position: relative;
@@ -103,15 +111,47 @@ h1{
 		margin-left: -2em;
 		margin-right: -2em;
 		width: 53.6%;
-		height: 150px;
+		height: 15em;
 		margin-top: 10px;
 		margin-bottom: 0.8%;
 		overflow: hidden;
 		position: relative;
 		line-height: 150px;
 	}
+	
+.caption {
+	display: inline-block;
+	vertical-align: text-bottom;
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #fff;
+	font-size: 2.5rem;
+	letter-spacing: 3px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-top: 1.5em;
+	text-decoration: none;
+}
 }
 @media screen and (min-width: 801px){
+	
+.caption {
+	display: inline-block;
+	vertical-align: text-bottom;
+	position: relative;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #fff;
+	font-size: 2.4rem;
+	letter-spacing: 3px;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-top: 2.2em;
+	text-decoration: none;
+}
 	.portfolioFlex{
 		display: flex;
 		flex-flow: row wrap;
@@ -133,14 +173,15 @@ h1{
 	  padding-right: 0;
 	}	
 	.item {
+		text-align: inherit;
 		width: 32.8%;
-		height: 100%;
 		margin-top: 10px;
 		margin-bottom: 0.8%;
 		overflow: hidden;
 		position: relative;
 		margin-left: -2em;
 		margin-right: 1em;
+		height: 20em;
 	}	
 	.item:hover .imageHolder {
 		-webkit-transform: scale(1.1, 1.1) !important;
