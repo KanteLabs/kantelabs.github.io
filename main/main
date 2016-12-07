@@ -121,6 +121,53 @@ li {
         position: relative;
         line-height: 15em;
     }
+	h1.aboutHeader{
+	font-size: 3.5em;
+	line-height: 100%;
+	}
+	.aboutText{
+	}
+	.aboutText p{
+	font-size: 20px;
+	text-align: left;
+	margin-right: -2em;
+	}
+	div#skilss{
+		
+	}
+	.aboutFlex{
+		margin-top: 4em;
+		display: flex;
+		justify-content: center;
+		margin-left: 1.5em;
+		margin-right: 4em;
+	}
+	ul.footerLinks{
+	display: flex;
+	justify-content: space-between;
+	font-size: 2em;
+	margin-left: -1em;
+	}
+	
+	.footerLinks li {
+	}
+	.skillsFlex{
+	display: flex;
+	JUSTIFY-CONTENT: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 1.5em;
+	max-width: 100%;
+	}
+	.skillItem{
+		position: relative;
+		display: inline-block;
+		width: 8em;
+	}
+	.skillItem img {
+	display: inline-block;
+	width: 100%;
+	}
 }
 
 /********************************************
@@ -195,6 +242,52 @@ li {
         top: 1em;
         text-decoration: none;
     }
+	h1.aboutHeader{
+	font-size: 50px;
+	line-height: 100%;
+	}
+	.aboutText{
+	}
+	.aboutText p{
+	font-size: 20px;
+	text-align: left;
+	margin-right: -1em;
+	}
+	div#skilss{
+		
+	}
+	.aboutFlex{
+		margin-top: 5em;
+		display: flex;
+		justify-content: center;
+		margin-left: 4em;
+		margin-right: 4em;
+	}
+	ul.footerLinks{
+	display: flex;
+	justify-content: space-between;
+	font-size: 3em;
+	margin-top: 1em;
+	}
+	
+	.footerLinks li {
+	}
+	.skillsFlex{
+	display: flex;
+	JUSTIFY-CONTENT: space-around;
+	flex-flow: row wrap;
+	margin-top: 1.5em;
+	}
+	.skillItem{
+		position: relative;
+		display: inline-block;
+		width: 13em;
+		margin: 1em;
+	}
+	.skillItem img {
+	display: inline-block;
+	width: 100%;
+	}
 }
 
 /**************************
@@ -262,39 +355,54 @@ li {
 
     .item .portfolioImg:hover {
         transform: scale(1.1,1.1);
-        transition: transform 1.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition: transform 1.5s ease-in-out;
         overflow: hidden;
     }
+	h1.aboutHeader{
+	font-size: 75px;
+	line-height: 100%;
+	}
 	.aboutText{
+	width: 70%;
 	}
 	.aboutText p{
-	font-size: 2.2rem;
+	font-size: 20px;
 	text-align: left;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-right: -2em;
+	}
+	div#skilss{
+		
+	}
+	.aboutFlex{
+		margin-top: 5em;
+		display: flex;
+		justify-content: center;
+		margin-left: 5em;
+		margin-right: 5em;
+	}
+	ul.footerLinks{
+	display: flex;
+	justify-content: space-between;
+	font-size: 3em;
+	margin-top: 2em;
 	}
 	
-	.aboutFlex{
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		position: relative;
+	.footerLinks li {
 	}
 	.skillsFlex{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-left: 5em;
 	}
 	.skillItem{
 		position: relative;
 		display: inline-block;
+		width: 10em;
 	}
-	.skillPic {
-	width: 15em;
-	}
-	.skillPic img {
+	.skillItem img {
 	display: inline-block;
-	width: 100;
-	}
-	ul.footerLinks{
-	display: flex;
+	width: 100%;
 	}
 }
 
