@@ -140,7 +140,6 @@ form > .button {
 
     .item {
         margin: 5px;
-        margin-right: 2.7em;
         width: 100%;
         height: 15em;
         margin-top: 10px;
@@ -148,6 +147,7 @@ form > .button {
         overflow: hidden;
         position: relative;
         line-height: 15em;
+        left: -3em;
     }
 	h1.aboutHeader{
 	
