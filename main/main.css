@@ -23,7 +23,7 @@ form > .button{padding-left:90px;margin-left:.5em;}
 .portfolioImg{position:absolute;width:100%;height:15em;}
 .portfolioFlex{display:flex;flex-flow:column wrap;justify-content:space-around;align-items:flex-end;}
 div#portfolioGrid{position:relative;z-index:2;padding:0;padding-bottom:30rem;* zoom:1;width:auto;max-width:100%;float:none;display:block;margin-right:auto;margin-left:auto;padding-left:0;padding-right:0;}
-.item{margin:5px;width:100%;height:15em;margin-top:10px;margin-bottom:0.8%;overflow:hidden;position:relative;line-height:15em;left: -1em;}
+.item{margin:5px;width:100%;height:15em;margin-top:10px;margin-bottom:0.8%;overflow:hidden;position:relative;line-height:15em;left: -1.8em;}
 h1.aboutHeader{font-size:4rem;line-height:110%;font-weight:100;}
 .aboutText{}
 .aboutText p{font-size:1.6rem;text-align:left;margin-right:-2em;line-height:160%;font-weight:100;}
