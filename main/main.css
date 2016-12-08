@@ -83,7 +83,127 @@ form > .button {
 /***************************************
 *Query for devices smaller than tablets*
 ****************************************/
-@media (max-width: 600px) {
+@media (min-width: 300px) and (max-width: 450px) {
+	.portfolioImg {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+    }
+
+    .caption {
+        display: inline-block;
+        vertical-align: text-bottom;
+        position: relative;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        margin-top: -1%;
+        text-decoration: none;
+    }
+
+    .portfolioImg {
+        position: absolute;
+        width: 100%;
+        height: 15em;
+    }
+
+    .portfolioFlex {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: flex-end;
+    }
+
+    div#portfolioGrid {
+        position: relative;
+        z-index: 2;
+        padding: 0;
+        padding-bottom: 30rem;
+        * zoom: 1; width: auto;
+        max-width: 100%;
+        float: none;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .item {
+        margin: 5px;
+        /* margin-right: 2.5em; */
+        width: 100%;
+        height: 15em;
+        margin-top: 10px;
+        margin-bottom: 0.8%;
+        overflow: hidden;
+        position: relative;
+        line-height: 15em;
+    }
+	h1.aboutHeader{
+	
+font-size: 4rem;
+	
+line-height: 110%;
+	
+font-weight: 100;
+	}
+	.aboutText{
+	}
+	.aboutText p{
+	font-size: 1.6rem;
+	text-align: left;
+	margin-right: -2em;
+	line-height: 160%;
+	font-weight: 100;
+	}
+	div#skilss{
+		
+	}
+	.aboutFlex{
+		margin-top: 4em;
+		display: flex;
+		justify-content: center;
+		margin-left: 1.5em;
+		margin-right: 4em;
+	}
+	ul.footerLinks{
+	display: flex;
+	justify-content: space-between;
+	font-size: 2em;
+	margin-left: -1em;
+	}
+	
+	.footerLinks li {
+	}
+	.skillsFlex{
+	display: flex;
+	JUSTIFY-CONTENT: space-around;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 1.5em;
+	max-width: 100%;
+	}
+	.skillItem{
+		position: relative;
+		display: inline-block;
+		width: 8em;
+	}
+	.skillItem img {
+	display: inline-block;
+	width: 100%;
+	}
+}
+@media (min-width: 451px) and (max-width: 600px) {
     .portfolioImg {
         top: 0;
         width: 100%;
