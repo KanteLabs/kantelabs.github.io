@@ -150,15 +150,18 @@ form > .button {
         line-height: 15em;
     }
 	h1.aboutHeader{
-	font-size: 3.5em;
-	line-height: 100%;
+	font-size: 4rem;
+	line-height: 110%;
+	font-weight: 100;
 	}
 	.aboutText{
 	}
 	.aboutText p{
-	font-size: 20px;
+	font-size: 1.6rem;
 	text-align: left;
 	margin-right: -2em;
+	line-height: 160%;
+	font-weight: 100;
 	}
 	div#skilss{
 		
@@ -272,14 +275,17 @@ form > .button {
     }
 	h1.aboutHeader{
 	font-size: 50px;
-	line-height: 100%;
+	line-height: 110%;
+	font-weight: 100;
 	}
 	.aboutText{
 	}
 	.aboutText p{
-	font-size: 20px;
+	font-size: 1.9rem;
 	text-align: left;
 	margin-right: -1em;
+	font-weight: 100;
+	line-height: 170%;
 	}
 	div#skilss{
 		
@@ -389,15 +395,18 @@ form > .button {
 	
 	h1.aboutHeader{
 	font-size: 75px;
-	line-height: 100%;
+	line-height: 110%;
+	font-weight: 100;
 	}
 	.aboutText{
 	width: 70%;
 	}
 	.aboutText p{
-	font-size: 20px;
+	font-size: 1.9rem;
 	text-align: left;
 	margin-right: -2em;
+	line-height: 170%;
+	font-weight: 100;
 	}
 	div#skilss{
 		
