@@ -7,7 +7,7 @@
 <meta name="keywords" content="portfolio, front-end web developer, web designer, Amidou, Kante, KanteLabs, freelancer">
 <meta name="description" content="This is the portfolio of Amidou Kante a Front End Web Developer.">
 <meta name="author" content="Amidou Kante">
-<title>Amidou Kante // Developer & Designer</title>
+<title>PokemonGO Calc</title>
 <link rel="icon" type ="image/png" href="favicon.png" sizes="16x16 24x24 32x32 48x48" />
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -32,7 +32,7 @@
 		
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="#portfolio">Portfolio<span class="sr-only">(current)</span></a></li>
+				<li class="active"><a href="index.html">Portfolio<span class="sr-only">(current)</span></a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="https://medium.com/@kamdiou">Blog</a></li>
 				<li><a href="mailto:kamidou95@gmail.com">Contact</a></li>
@@ -41,39 +41,36 @@
 	</div>
 </nav>
 <section id="portfolio">	
-	<h1>Previous Work</h1>
-	<ul class="portfolioFlex">
-		<li class="item">
-			<div class="portfolioImg fashionProject"/>
-			<a href="fashion.html"><div class="overlay"><p class="caption">Gold Gypsie</p></div></a>
-		</li>
-		<li class="item">
-			<div class="portfolioImg quoteProject"/>
-			<a href="quote.html">
-			<div class="overlay"><p class="caption">Quote Generator</p></div></a>
-		</li>
-		<li class="item">
-			<div class="portfolioImg instagramProject"/>
-			<a href="kantegram.html">
-			<div class="overlay"><p class="caption">Kantegram</p></div></a>
-		</li>
-		<li class="item">
-			<div class="portfolioImg pokemonProject"/>
-			<a href="pokemon.html">
-			<div class="overlay"><p class="caption">PokemonGO Calc</p></div></a>
-		</li>
-		<li class="item">
-			<div class="portfolioImg weatherProject"/>
-			<a href="weather.html">
-			<div class="overlay"><p class="caption">Weather App</p></div></a>
-		</li>
-		<li class="item">
-			<div class="portfolioImg Untitled"/>
-			<div class="overlay"><p class="caption">Untitled</p></div>
-		</li>
-	</ul>
-</section>
-<section id="footer" class="well">
+	<div class="pageContents">		
+		<div class="projectText">
+			<h1 class="projectHeader">PokemonGO Calculator</h1>
+			<p>During the height of the PokemonGO craze, I decided to build a web application that could help users while they are catching Pokemon. My web app was capable of telling a user how many Pokemon they could evolve based on the amount of candy that they have. The most challenging part of this project was creating the right formula to actually be able to determine that.</p>
+			<p>For the design elements, I decided to incorporate the famous Pokemon Yellow and Blue color scheme. I also decided to use Material Design for this project because I like the card components that you are capable of creating with it. The app is fully functional and I ran many tests on it to make sure that it is always capable of correctly calculating the amount of Pokemon a person can evolve and how much candy it would take.</p>
+			<p><a href="https://kantelabs.github.io/PokemonGo-Calc/index.html">View Project</a></p>
+			<div class="subItems">
+				<div class="projectNav">
+					<ul>
+						<li><a href="weather.html">Next Project</a></li>
+						<li><a href="kantegram.html">Previous Project</a></li>
+						<li><a href="index.html">All Projects</a></li>
+					</ul>
+				</div>
+				<div class="projectInfo">
+					<ul>
+						<li>HTML5/CSS3</li>
+						<li>JavaScript/jQuery</li>
+						<li>Google Material Design</li>
+					</ul>
+				</div>			
+			</div>
+		</div>
+		<div class="ProjectGallery">
+			<div class="imageHolder">
+				<h4 class="imgTitle">PokemonGO</h4>
+				<img class="portfolioImgGallery" src="main/images/pokemon.png"/>
+			</div>
+		</div>
+	</div>
 </section>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
