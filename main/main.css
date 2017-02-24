@@ -40,6 +40,10 @@ li {
 .rickOwens {
     background: url("./images/rick.png");
 }
+
+.kanteCloud {
+    background: url("./images/kantecloud2.png");
+}
 	
 div.overlay {
     text-align: center;
