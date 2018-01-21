@@ -594,7 +594,8 @@ div.overlay {
         border-top: 1px solid #4c4a4a;
         padding-top: 1em;
         margin-bottom: 1em;
-        font-weight: 100
+        font-weight: 100;
+        font-size: 2vh;
     }
 
     .subItems {
@@ -622,11 +623,9 @@ div.overlay {
     }
 
     .ProjectGallery {
-        position: relative;
-        float: left;
-        width: 50%;
+        width: 40vw;
         margin-left: 5em;
-        margin-top: 4em
+        margin-top: 4em;
     }
 
     .portfolioImgGallery {
@@ -754,8 +753,8 @@ footer {
 }
 
 img.portfolioImgGallery.mobileDevice {
-    width: 250px;
+    width: 30%;
     height: auto;
     display: flex;
-    margin: 0 auto
+    margin: 0 auto;
 }
