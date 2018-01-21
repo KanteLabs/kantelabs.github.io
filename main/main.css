@@ -7,7 +7,7 @@ html {
 }
 
 *,:after,:before {
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 
 * {
@@ -15,7 +15,7 @@ html {
 }
 
 li {
-    list-style-type: none
+    list-style-type: none;
 }
 
 .fashionProject {
@@ -602,6 +602,7 @@ div.overlay {
         font-weight: 100;
         display: flex;
         flex-flow: row nowrap;
+        margin-top: 0.5em;
     }
 
     .pageContents {
@@ -616,8 +617,8 @@ div.overlay {
         text-align: justify
     }
 
-    .projectInfo,.projectNav {
-        margin-left: -0.7em;
+    .projectInfo, .projectNav ul li {
+        list-style-type: none;
     }
 
     .ProjectGallery {
