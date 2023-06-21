@@ -1,0 +1,41 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Metro Sans", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.social-links {
+  margin-top: 2rem;
+}
+
+.current a:hover,
+.social-link:hover {
+  color: #5a5a5a;
+  transition: color 0.2s ease-in-out;
+}
+
+.current a {
+  text-decoration: underline #5a5a5a;
+}
