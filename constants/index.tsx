@@ -37,19 +37,17 @@ export const PROJECTS = {
   // },
   'sentible': {
     name: 'Sentible',
-    description: 'web3 explorer. @Aave Grant Recipient',
+    description: 'web3 explorer. @aave grant recipient',
     url: 'https://sentible.app/',
     image: '/sentible.png',
-    tech: ['React', 'Next.js', 'TailwindCSS', 'Vercel'],
     year: '2022',
   },
   'mycrypto': {
     name: 'MyCrypto',
-    description: 'Open-source contributions',
+    description: 'open source contributions',
     url: 'https://mycrypto.com/',
     // url: 'https://github.com/MyCryptoHQ/MyCrypto/commits?author=KanteLabs',
     image: '/mycrypto.png',
-    tech: ['React', 'Next.js', 'Typescript', 'Styled-Components', 'Vercel'],
     year: '2019',
   },
   'supreme': {
@@ -57,15 +55,13 @@ export const PROJECTS = {
     description: 'api wrapper built around https://supremenewyork.com',
     url: 'https://github.com/KanteLabs/supreme-api',
     image: '/supreme.png',
-    tech: ['NodeJS', 'Express', 'Supreme'],
     year: '2018',
   },
   'visualizer': {
     name: 'Audio Visualizer',
-    description: 'Three.js Audio visualizer with over 350+ songs visualized by users.',
+    description: 'three.js audio visualizer with over 350+ songs visualized by users.',
     url: 'https://amidoukante.com/Music-Visualizer/',
     image: '/visualizer.png',
-    tech: ['React', 'Three.js', 'Vercel'],
     year: '2017',
   },
 }
