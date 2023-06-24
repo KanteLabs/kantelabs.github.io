@@ -32,7 +32,6 @@ export const PROJECTS = {
   //   description: 'decentralized social payment on Lens.xyz',
   //   url: 'https://github.com/KanteLabs/ghopay',
   //   image: '/ghopay.png',
-  //   tech: ['React', 'Next.js', 'Solidity', 'Vercel'],
   //   year: '2023',
   // },
   'sentible': {
@@ -44,9 +43,8 @@ export const PROJECTS = {
   },
   'mycrypto': {
     name: 'MyCrypto',
-    description: 'open source contributions',
+    description: 'open source contributor',
     url: 'https://mycrypto.com/',
-    // url: 'https://github.com/MyCryptoHQ/MyCrypto/commits?author=KanteLabs',
     image: '/mycrypto.png',
     year: '2019',
   },
@@ -59,7 +57,7 @@ export const PROJECTS = {
   },
   'visualizer': {
     name: 'Audio Visualizer',
-    description: 'three.js audio visualizer with over 350+ songs visualized by users.',
+    description: 'three.js audio visualizer with over 350+ songs visualized by users',
     url: 'https://amidoukante.com/Music-Visualizer/',
     image: '/visualizer.png',
     year: '2017',
@@ -83,6 +81,3 @@ export const CURRENT_ROLE = (
     </h4>
   </div>
 )
-
-
-// <a title='apple' href="https://www.uber.com/">&#xF8FF;</a>
