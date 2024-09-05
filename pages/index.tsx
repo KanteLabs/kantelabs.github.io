@@ -26,9 +26,8 @@ export default function Home() {
 
         <br />
         <br />
-        <br />
 
-        <h4>Selected Work</h4>
+        <h5>Selected Work</h5>
         <ProjectLinks />
       </main>
     </div>

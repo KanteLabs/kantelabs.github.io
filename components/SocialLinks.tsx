@@ -21,7 +21,7 @@ export const Link = ({
 export const SocialLinks = () => {
 
   return (
-    <div className="social-links">
+    <div className="social-links social">
       {CONTACT_LINKS.map(({ name, label, url }) => (
         <Link
           key={name}
@@ -38,7 +38,7 @@ export const ProjectLinks = () => {
   const values = Object.entries(PROJECTS)
 
   return (
-    <div className="social-links">
+    <div className="social-links projects">
       {values.map(([name, { name: label, description, url, year }]) => (
         <Fragment key={name}>
           <Link
@@ -47,7 +47,7 @@ export const ProjectLinks = () => {
             label={`${label} - (${year})`}
             url={url}
           />
-          <p>
+          <p className="project-info">
             {description}
           </p>
           <br />

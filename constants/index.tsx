@@ -1,23 +1,18 @@
 export const CONTACT_LINKS = [
   {
-    name: 'email',
-    label: 'Email',
-    url: 'mailto:0xkante@gmail.com'
+    name: 'github',
+    label: 'Github',
+    url: 'https://github.com/Kantelabs'
   },
-  // {
-  //   name: 'twitter',
-  //   label: 'Twitter',
-  //   url: 'https://twitter.com/KanteLabs'
-  // },
   {
     name: 'linkedin',
     label: 'LinkedIn',
     url: 'https://www.linkedin.com/in/amidou-kante/'
   },
   {
-    name: 'github',
-    label: 'Github',
-    url: 'https://github.com/Kantelabs'
+    name: 'email',
+    label: 'Email',
+    url: 'mailto:0xkante@gmail.com'
   },
   {
     name: 'resume',
@@ -59,14 +54,14 @@ export const PROJECTS = {
   },
   'supreme': {
     name: 'Supreme',
-    description: 'api wrapper built around https://supremenewyork.com',
+    description: 'api wrapper for https://supremenewyork.com',
     url: 'https://github.com/KanteLabs/supreme-api',
     image: '/supreme.png',
     year: '2018',
   },
   'visualizer': {
     name: 'Audio Visualizer',
-    description: 'three.js audio visualizer with over 350+ songs visualized by users',
+    description: 'built with three.js and over 350+ songs visualized by users',
     url: 'https://amidoukante.com/Music-Visualizer/',
     image: '/visualizer.png',
     year: '2017',
@@ -77,16 +72,16 @@ export const CURRENT_ROLE = (
   <div className="current">
     <h4>
       Amidou Kante
-    </h4>
-    <h4>
-      Senior Frontend Engineer&nbsp;@
-      <a
-        target="_blank"
-        rel="noopener noreferrer" href="https://www.nvidia.com/en-us/gpu-cloud/"
-      >
-        NVIDIA
-      </a>
-
+      <br />
+      <span className="role-title">
+        Senior Frontend Engineer&nbsp;@
+        <a
+          target="_blank"
+          rel="noopener noreferrer" href="https://www.nvidia.com/en-us/gpu-cloud/"
+        >
+          NVIDIA
+        </a>
+      </span>
     </h4>
   </div>
 )
