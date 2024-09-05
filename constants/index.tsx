@@ -31,15 +31,23 @@ export const PROJECTS = {
   //   name: 'GhoPay',
   //   description: 'decentralized social payment on Lens.xyz',
   //   url: 'https://github.com/KanteLabs/ghopay',
+  //   // url: 'https://blog.connext.network/scaling-ethereum-hackathon-winners-c2a33d9ad626#:~:text=GhoPay%20%E2%80%94%20Great%20xApp%20Winner%20(%24500)',
   //   image: '/ghopay.png',
   //   year: '2023',
   // },
-  'sentible': {
-    name: 'Sentible',
-    description: 'web3 explorer. @aave grant recipient',
-    url: 'https://sentible.app/',
+  // 'sentible': {
+  //   name: 'Sentible',
+  //   description: 'web3 explorer. @aave grant recipient',
+  //   url: 'https://sentible.app/',
+  //   image: '/sentible.png',
+  //   year: '2022',
+  // },
+  'apple': {
+    name: 'Apple',
+    description: 'Frontend Engineer on iPad Air',
+    url: 'https://www.apple.com/',
     image: '/sentible.png',
-    year: '2022',
+    year: '2020',
   },
   'mycrypto': {
     name: 'MyCrypto',
