@@ -52,7 +52,8 @@ export const PROJECTS = {
   'mycrypto': {
     name: 'MyCrypto',
     description: 'open source contributor',
-    url: 'https://mycrypto.com/',
+    // url: 'https://mycrypto.com/',
+    url: 'https://github.com/MyCryptoHQ/MyCrypto/commits?author=KanteLabs',
     image: '/mycrypto.png',
     year: '2019',
   },
