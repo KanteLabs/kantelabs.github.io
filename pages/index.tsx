@@ -22,13 +22,8 @@ export default function Home() {
 
       <main className={styles.main}>
         {CURRENT_ROLE}
-        <SocialLinks />
-
-        <br />
-        <br />
-
-        <h5>Selected Work</h5>
         <ProjectLinks />
+        <SocialLinks />
       </main>
     </div>
   )

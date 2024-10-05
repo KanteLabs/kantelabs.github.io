@@ -22,6 +22,7 @@ export const SocialLinks = () => {
 
   return (
     <div className="social-links social">
+      <h5>Contact</h5>
       {CONTACT_LINKS.map(({ name, label, url }) => (
         <Link
           key={name}
@@ -39,6 +40,7 @@ export const ProjectLinks = () => {
 
   return (
     <div className="social-links projects">
+      <h5>Selected Work</h5>
       {values.map(([name, { name: label, description, url, year }]) => (
         <Fragment key={name}>
           <Link

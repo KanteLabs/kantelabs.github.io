@@ -22,6 +22,13 @@ export const CONTACT_LINKS = [
 ]
 
 export const PROJECTS = {
+  // 'nvidia': {
+  //   name: 'NVIDIA',
+  //   description: 'gpu cloud team',
+  //   url: 'https://www.nvidia.com/en-us/gpu-cloud/',
+  //   image: '/nvidia.png',
+  //   year: '2020 - Present',
+  // },
   // 'ghopay': {
   //   name: 'GhoPay',
   //   description: 'decentralized social payment on Lens.xyz',
@@ -39,7 +46,7 @@ export const PROJECTS = {
   // },
   'apple': {
     name: 'Apple',
-    description: 'Frontend Engineer on iPad Air',
+    description: 'frontend engineer on iPad Air',
     url: 'https://www.apple.com/',
     image: '/sentible.png',
     year: '2020',
@@ -77,9 +84,19 @@ export const CURRENT_ROLE = (
         Senior Frontend Engineer&nbsp;@
         <a
           target="_blank"
-          rel="noopener noreferrer" href="https://www.nvidia.com/en-us/gpu-cloud/"
+          rel="noopener noreferrer" href="https://build.nvidia.com/"
         >
           NVIDIA
+        </a>
+      </span>
+      <br />
+      <span className="role-title">
+        Prev&nbsp;@
+        <a
+          target="_blank"
+          rel="noopener noreferrer" href="https://www.apple.com/"
+        >
+          Apple
         </a>
       </span>
     </h4>
