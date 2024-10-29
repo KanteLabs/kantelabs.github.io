@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import { ProjectLinks, SocialLinks } from '../components/SocialLinks'
+import { ProjectLinks, SocialLinks, WorkLinks } from '../components/SocialLinks'
 import { CURRENT_ROLE } from '../constants'
 
 export default function Home() {
@@ -22,6 +22,7 @@ export default function Home() {
 
       <main className={styles.main}>
         {CURRENT_ROLE}
+        <WorkLinks />
         <ProjectLinks />
         <SocialLinks />
       </main>

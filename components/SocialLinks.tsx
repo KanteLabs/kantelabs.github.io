@@ -1,5 +1,5 @@
 import { Fragment } from "react"
-import { CONTACT_LINKS, PROJECTS } from "../constants"
+import { CONTACT_LINKS, PROJECTS, WORK_EXPERIENCE } from "../constants"
 
 export const Link = ({
   name = '',
@@ -41,6 +41,30 @@ export const ProjectLinks = () => {
   return (
     <div className="social-links projects">
       <h5>Selected Work</h5>
+      {values.map(([name, { name: label, description, url, year }]) => (
+        <Fragment key={name}>
+          <Link
+            key={name}
+            name={name}
+            label={`${label} - (${year})`}
+            url={url}
+          />
+          <p className="project-info">
+            {description}
+          </p>
+          <br />
+        </Fragment>
+      ))}
+    </div>
+  )
+}
+
+export const WorkLinks = () => {
+  const values = Object.entries(WORK_EXPERIENCE)
+
+  return (
+    <div className="social-links projects">
+      <h5>Past Experience</h5>
       {values.map(([name, { name: label, description, url, year }]) => (
         <Fragment key={name}>
           <Link
